@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+*{
+    padding: 0%;
+    margin: 0;
+
+}
+.navbar{
+display: flex;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+align-items: center;
+justify-content: center;
+position: sticky;
+top: 0%;
+cursor: pointer;
+}
+body{
+   
+    
+}
+
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: 2px beige;
+}
+.logo img{
+    width: 33%;
+    border-radius: 100%;
+}
+.nav-list{
+
+width: 50%;
+display: flex;
+align-items: center;
+text-decoration: none;
+
+
+}
+
+.nav-list li{
+padding: 23px 30px;
+text-decoration: none;
+list-style-type: none;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: aliceblue;
+
+
+}
+
+
+.nav-list li a:hover{
+color: grey;
+
+}
+
+
+.rightnav{
+width: 50%;
+text-align: right;
+border: 10px;
+padding: 2px 2px 5px;
+
+
+}
+
+#search{
+    border-radius: 10px;
+    font-size: 17px;
+    border: 2px solid grey;
+    
+
+}
+
+.background{
+    background-image: url(https://images.unsplash.com/photo-1523961131990-5ea7c61b2107?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1567&q=80);
+    background-size:cover;
+    background-blend-mode: darken;
+}
+
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.firsthalf{
+    padding: 20%;
+    width:80%;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    padding-left: 10%;
+}
+.secondhalf{
+    align-items: left;
+    width: 50%;
+
+}
+.secondhalf img{
+    width: 70%;
+    padding: 0%;
+}
+.text-big{
+    font-size: 50px;
+}
+.btn{
+    background: none;
+    cursor: pointer;
+    padding: 8px 2px;
+    margin: 7px 0;
+    border-radius: 8px;
+    color: aliceblue;
+    border-color: aliceblue;
+
+}
+
+.secright{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width:80% ;
+    margin: auto;
+    color: black;
+    padding: 2%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.paras{
+    padding: 4px;
+}
+.secleft{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width:80% ;
+    margin: auto;
+    color: black;
+    flex-direction: row-reverse;
+}
+
+.thumbnail img{
+    width: 250px;
+}
+
+.text-big{
+    font-size: 65px;
+}
+
+footer{
+    align-items: center;
+    text-align: center;
+    background: black;
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
