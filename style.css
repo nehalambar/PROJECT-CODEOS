@@ -96,6 +96,7 @@ padding: 2px 2px 5px;
     justify-content: center;
     display: flex;
     padding-left: 10%;
+    color: white;
 }
 .secondhalf{
     align-items: left;
@@ -109,16 +110,7 @@ padding: 2px 2px 5px;
 .text-big{
     font-size: 50px;
 }
-.btn{
-    background: none;
-    cursor: pointer;
-    padding: 8px 2px;
-    margin: 7px 0;
-    border-radius: 8px;
-    color: aliceblue;
-    border-color: aliceblue;
 
-}
 
 .secright{
     height: 500px;
@@ -148,11 +140,19 @@ padding: 2px 2px 5px;
 }
 
 .thumbnail img{
-    width: 250px;
+    width: 350px;
 }
 
 .text-big{
     font-size: 65px;
+}
+.text-big1{
+    font-size: 40px;
+    padding-bottom: 7px;
+}
+
+.fl{
+    font-size: 50px;
 }
 
 footer{
@@ -160,5 +160,32 @@ footer{
     text-align: center;
     background: black;
     color: aliceblue;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.btn1 button{
+    
+    background: red;
+    cursor: pointer;
+    padding: 8px 2px;
+    margin: 7px 0;
+    border-radius: 8px;
+    border-color: grey;
+    color: white;
+    
+
+}
+.btn2 button{
+    
+    background: lightseagreen;
+    cursor: pointer;
+    padding: 8px 2px;
+    margin: 7px 0;
+    border-radius: 8px;
+    border-color: grey;
+    color: white;
+    
+
+}
+a{
+    color: white;
 }
