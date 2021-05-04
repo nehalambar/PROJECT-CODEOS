@@ -1,11 +1,12 @@
-<html lang="en">
+html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CODEOS</title>
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
 </head>
 
 <body>
@@ -26,11 +27,11 @@
     <section class="background firstsection">
         <div class="box-main">
             <div class="firsthalf">
-                <p class="text-big">
-                <h1>Developed by students for students</h1>
+                <p class="text-big1">
+                    Developed by students for students
                 </p>
                 <p class="text-small"></p>
-                CODEOS is an all round development community for all the budding graduates. It intends to help everybody to grab some amazing courses, internships & also provides the roadmap to the career of your choice. It also has some interesting discussion sessions to direct you in the stormy sea.
+                CodeOs is an all round development community for all the budding graduates. It intends to help everybody to grab some amazing courses, internships & also provides the roadmap to the career of your choice. It also has some interesting discussion sessions to direct you in the stormy sea.
             </p>
                 <div class="buttons">
                     <button class="btn">Subscribe</button>
@@ -38,13 +39,39 @@
                 </div>
             </div>
             <div class="secondhalf">
-                <img src="" alt="">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="internship.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="workshop.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="mentoring.png" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
             </div>
         </div>
     </section>
 
 
-
+<div id="about">
+    
     <section class="secright">
         <div class="paras">
         <p class="sectiontag text-big">Workshop</p>
@@ -54,19 +81,19 @@
             a? Nostrum natus deserunt minima minus officia iusto
             aliquid distinctio odio molestias!</p>
         </div>
-        <div class="thumbnail"><img src="logo.jpg" alt="" class="imgfluid"></div>
+        <div class="thumbnail"><img src="workshop.png" alt="" class="imgfluid"></div>
     </section>
 
     <section class="secright secleft">
         <div class="paras">
-        <p class="sectiontag text-big">Techevents</p>
+        <p class="sectiontag text-big">Internship</p>
         <p class="sectionsubtag">Lorem ipsum dolor sit amet conse
             ctetur adipisicing elit. Quam voluptatibus dolorem
             illum minima quasi assumenda sunt, deserunt quod qui
             a? Nostrum natus deserunt minima minus officia iusto
             aliquid distinctio odio molestias!</p>
         </div>
-        <div class="thumbnail"><img src="logo.jpg" alt="" class="imgfluid"></div>
+        <div class="thumbnail"><img src="internship.png" alt="" class="imgfluid"></div>
     </section>
 
     <section class="secright">
@@ -78,8 +105,9 @@
             a? Nostrum natus deserunt minima minus officia iusto
             aliquid distinctio odio molestias!</p>
         </div>
-        <div class="thumbnail"><img src="logo.jpg" alt="" class="imgfluid"></div>
+        <div class="thumbnail"><img src="mentoring.png" alt="" class="imgfluid"></div>
     </section>
+</div>
 
 </body>
 <footer>
