@@ -271,11 +271,11 @@ top: 15px;
         flex-direction: column;
     }
     .sectiontag{
-        padding-top: 35%;
+        padding-top: 40%;
     }
     .secright img{
 
-        visibility: collapse;
+        visibility: hidden;
     }
 }
 
