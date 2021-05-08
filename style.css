@@ -266,6 +266,17 @@ top: 15px;
     .v-class{
         visibility: hidden;
     }
+    .secright{
+        
+        flex-direction: column;
+    }
+    .sectiontag{
+        padding-top: 35%;
+    }
+    .secright img{
+
+        visibility: collapse;
+    }
 }
 
 
